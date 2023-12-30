@@ -34,7 +34,7 @@ async def start_t(bot, message):
     await message.reply_text(
         text=START_TEXT.format(message.from_user.mention),
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Updates Channel', url='https://t.me/UniversalBotsUpdate'), InlineKeyboardButton('Support Group', url='https://t.me/UniversalBotsSupport')]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Updates Channel', url='https://t.me/+fztuVtP1frMwYTk1'), InlineKeyboardButton('Support Group', url='https://t.me/UniversalBotsSupport')]])
     )
 
 

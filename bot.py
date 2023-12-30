@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Made by @Jigarvarma2005
+# Made by @QUEENx_GOD
 
 # Edit anything at your own risk
 
@@ -26,7 +26,7 @@ Hello {}, I' am Telegraph Uploader bot.
 - I will download the given media and upload it to telegraph server
 - Maxx limit 5mb of a file 
 
-Made by @Jigarvarma2005
+Made by @QUEENx_GOD
 """
 
 @jvbot.on_message(filters.command(["start"]) & filters.private)
@@ -34,7 +34,7 @@ async def start_t(bot, message):
     await message.reply_text(
         text=START_TEXT.format(message.from_user.mention),
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Updates Channel', url='https://t.me/+fztuVtP1frMwYTk1'), InlineKeyboardButton('Support Group', url='https://t.me/UniversalBotsSupport')]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Updates Channel', url='https://t.me/+fztuVtP1frMwYTk1'), InlineKeyboardButton('Support Group', url='https://t.me/AnjalixSupportxGroup')]])
     )
 
 
